@@ -1,0 +1,15 @@
+{
+  "name": "Studio Sains Cilik",
+  "short_name": "Sains Cilik",
+  "description": "Pelajaran sains siaga bencana dengan simulasi dan kuis dua bahasa untuk kelas 4-6 SD.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E9EFF2",
+  "theme_color": "#EE6115",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

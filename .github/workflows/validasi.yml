@@ -1,0 +1,9 @@
+# Memeriksa konten setiap ada push. Jika gagal, tanda silang merah muncul di GitHub.
+name: Validasi konten
+on: [push, pull_request]
+jobs:
+  validasi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node tools/validasi.mjs

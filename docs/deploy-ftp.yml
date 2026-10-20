@@ -1,0 +1,28 @@
+# Contoh GitHub Actions untuk mengunggah situs ke shared hosting lewat FTP setiap ada push ke main.
+# Cara pakai:
+# 1. Salin file ini ke .github/workflows/deploy-ftp.yml
+# 2. Di GitHub: Settings → Secrets and variables → Actions → tambahkan FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
+# 3. Ubah server-dir jika situs ada di subfolder (misalnya public_html/sains/)
+name: Deploy ke shared hosting
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validasi konten
+        run: node tools/validasi.mjs
+      - name: Unggah lewat FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: public_html/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            docs/**
+            tools/**

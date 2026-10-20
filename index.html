@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Pelajaran sains siaga bencana dengan simulasi interaktif dan kuis dua bahasa untuk kelas 4–6 SD.">
+<meta name="theme-color" content="#EE6115">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<title>Studio Sains Cilik</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bungee&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<canvas id="confetti" aria-hidden="true"></canvas>
+<div class="langbar" role="group" aria-label="Bahasa / Language">
+  <div class="seg">
+    <button type="button" data-lang="id" aria-pressed="true">ID</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</div>
+
+<!-- ================= BERANDA / HOME ================= -->
+<main class="wrap" id="setup">
+  <div class="hazard" aria-hidden="true"></div>
+  <header class="hero">
+    <p class="eyebrow" data-t="eyebrow"></p>
+    <h1>Studio Sains <span>Cilik</span></h1>
+    <p data-t="heroText"></p>
+  </header>
+
+  <section class="card loaderr" id="load-error" hidden>
+    <h2 class="step-title" data-t="loadErrTitle"></h2>
+    <p class="note" id="load-error-text"></p>
+  </section>
+
+  <section class="card" aria-labelledby="learn-h">
+    <h2 class="step-title" id="learn-h" data-t="learnTitle"></h2>
+    <p class="note" data-t="learnNote"></p>
+    <div class="choice-row" id="lessons"></div>
+  </section>
+
+  <h2 class="section-label" data-t="playLabel"></h2>
+
+  <section class="card" aria-labelledby="s1">
+    <h2 class="step-title" id="s1"><b>1</b> <span data-t="whoPlays"></span></h2>
+    <div class="choice-row" role="group" id="mode-group">
+      <button class="choice" id="mode-solo" data-mode="solo" aria-pressed="true">
+        <strong data-t="soloTitle"></strong>
+        <span data-t="soloText"></span>
+      </button>
+      <button class="choice" id="mode-teams" data-mode="teams" aria-pressed="false">
+        <strong data-t="teamsTitle"></strong>
+        <span data-t="teamsText"></span>
+      </button>
+    </div>
+    <div class="names" id="names" hidden>
+      <label class="field" for="name0"><span data-t="team1"></span><input id="name0" maxlength="20"></label>
+      <label class="field" for="name1"><span data-t="team2"></span><input id="name1" maxlength="20"></label>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="s2">
+    <h2 class="step-title" id="s2"><b>2</b> <span data-t="pickMission"></span></h2>
+    <div class="choice-row" id="missions" role="group"></div>
+  </section>
+
+  <section class="card" aria-labelledby="s3">
+    <h2 class="step-title" id="s3"><b>3</b> <span data-t="options"></span></h2>
+    <div class="toggles">
+      <label class="toggle" for="opt-quick"><input type="checkbox" id="opt-quick">
+        <span><span data-t="quickTitle"></span><small data-t="quickText"></small></span></label>
+      <label class="toggle" for="opt-timer"><input type="checkbox" id="opt-timer" checked>
+        <span><span data-t="timerTitle"></span><small data-t="timerText"></small></span></label>
+      <label class="toggle" for="opt-sound"><input type="checkbox" id="opt-sound" checked>
+        <span><span data-t="soundTitle"></span><small data-t="soundText"></small></span></label>
+    </div>
+  </section>
+
+  <button class="btn btn-go" id="start" data-t="startMission"></button>
+
+  <section class="card" aria-labelledby="s4">
+    <h2 class="step-title" id="s4" data-t="scoringTitle"></h2>
+    <ul class="rules" id="scoring-rules"></ul>
+  </section>
+
+  <p class="site-foot" data-t="footer"></p>
+</main>
+
+<!-- ================= PELAJARAN / LESSON ================= -->
+<main class="wrap" id="learn" hidden>
+  <div class="topbar">
+    <div class="where">
+      <span class="eyebrow" id="l-eyebrow"></span>
+      <strong id="l-title"></strong>
+    </div>
+    <div class="tools"><button class="btn btn-ghost btn-small" id="l-back" data-t="backMenu"></button></div>
+  </div>
+  <section class="card">
+    <h2 class="step-title" data-t="keyIdeas"></h2>
+    <ul class="ideas" id="l-ideas"></ul>
+  </section>
+  <section class="card">
+    <h2 class="step-title" id="l-sim-title"></h2>
+    <p class="note" id="l-sim-intro"></p>
+    <div class="sub" id="l-sim"></div>
+  </section>
+  <section class="card" id="l-safety-card">
+    <h2 class="step-title" data-t="safetyTitle"></h2>
+    <ul class="safety" id="l-safety"></ul>
+  </section>
+  <section class="card">
+    <h2 class="step-title" data-t="tryThis"></h2>
+    <ol class="rules" id="l-tries"></ol>
+  </section>
+  <div class="actions">
+    <button class="btn btn-go" id="l-quiz"></button>
+    <button class="btn btn-ghost" id="l-next"></button>
+  </div>
+  <p class="provenance" id="l-prov"></p>
+</main>
+
+<!-- ================= MAIN / PLAY ================= -->
+<main class="wrap" id="play" hidden>
+  <div class="topbar">
+    <div class="where">
+      <span class="eyebrow" id="q-count"></span>
+      <strong id="q-mission"></strong>
+    </div>
+    <div class="tools">
+      <button class="btn btn-ghost btn-small" id="btn-sound" aria-pressed="true"></button>
+      <button class="btn btn-ghost btn-small" id="btn-quit" data-t="endGame"></button>
+    </div>
+  </div>
+  <div class="confirm" id="confirm" hidden>
+    <p data-t="endConfirm"></p>
+    <button class="btn btn-small btn-go" id="quit-yes" data-t="endGame"></button>
+    <button class="btn btn-small btn-ghost" id="quit-no" data-t="keepPlaying"></button>
+  </div>
+
+  <div class="scores" id="scores"></div>
+  <div>
+    <div class="route" id="route" aria-hidden="true"></div>
+    <p class="route-label" id="route-label"></p>
+  </div>
+  <div class="timer-row" id="timer-row">
+    <div class="timer" id="timer"><div id="timer-fill"></div></div>
+    <span class="num" id="timer-num">25</span>
+  </div>
+
+  <section class="card qcard" aria-live="polite">
+    <div class="qhead">
+      <span class="eyebrow" id="q-topic"></span>
+      <span class="turn" id="turn" hidden></span>
+    </div>
+    <p class="qtext" id="q-text"></p>
+    <p class="steal" id="steal" hidden></p>
+    <div class="answers" id="answers"></div>
+    <div class="helpers">
+      <button class="btn btn-ghost btn-small" id="btn-fifty"></button>
+      <small id="helper-note"></small>
+    </div>
+  </section>
+
+  <section class="feedback" id="feedback" hidden aria-live="polite">
+    <div class="verdict">
+      <h3 id="fb-title"></h3>
+      <span class="pts" id="fb-pts"></span>
+      <span class="badge" id="fb-badge" hidden></span>
+    </div>
+    <p class="explain" id="fb-explain"></p>
+    <button class="btn btn-go" id="btn-next"></button>
+  </section>
+</main>
+
+<!-- ================= HASIL / END ================= -->
+<main class="wrap" id="end" hidden>
+  <div class="hazard" aria-hidden="true"></div>
+  <header class="end-hero">
+    <p class="eyebrow" id="end-mission"></p>
+    <h1 id="end-title"></h1>
+    <p id="end-sub"></p>
+  </header>
+  <div class="final" id="final"></div>
+  <section class="card">
+    <h2 class="step-title" data-t="byMission"></h2>
+    <div class="bars" id="bars"></div>
+  </section>
+  <section class="card">
+    <h2 class="step-title" data-t="toReview"></h2>
+    <div class="review" id="review"></div>
+  </section>
+  <div class="actions">
+    <button class="btn btn-go" id="again" data-t="playAgain"></button>
+    <button class="btn btn-ghost" id="practice" data-t="practiceMissed"></button>
+    <button class="btn btn-ghost" id="menu" data-t="backMenu"></button>
+  </div>
+</main>
+
+<script src="assets/sims.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

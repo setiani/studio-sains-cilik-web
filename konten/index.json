@@ -1,0 +1,6 @@
+{
+  "skema": 1,
+  "topik": [
+    { "id": "gempa", "file": "gempa.json" }
+  ]
+}
