@@ -1,6 +1,7 @@
 {
   "skema": 1,
   "topik": [
-    { "id": "gempa", "file": "gempa.json" }
+    { "id": "gempa", "file": "gempa.json" },
+    { "id": "gunung-api-pantai", "file": "gunung-api-pantai.json" }
   ]
 }
