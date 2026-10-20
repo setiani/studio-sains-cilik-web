@@ -1,120 +1,176 @@
 {
   "skema": 1,
   "id": "gempa",
-  "id_run": "CONTOH-AWAL",
-  "versi_draf": 1,
-  "kelas": "4-6",
+  "id_run": "20261020-1534-zona-gempa",
+  "versi_draf": 2,
+  "kelas": "5",
   "judul": { "id": "Zona Gempa", "en": "Earthquake Zone" },
-  "ringkas": { "id": "Lempeng bumi, bangunan tahan gempa, dan cara selamat", "en": "Earth's plates, quake-safe buildings, and how to stay safe" },
+  "ringkas": { "id": "Kenapa bumi berguncang, dan bagaimana kita siaga", "en": "Why the ground shakes, and how we get ready" },
   "pelajaran": {
     "judul": { "id": "Kenapa bumi berguncang, dan cara kita siaga", "en": "Why the ground shakes, and how we get ready" },
     "ide": [
       {
         "judul": { "id": "Lempeng bergerak", "en": "Moving plates" },
-        "isi": { "id": "Kerak bumi terpecah menjadi lempeng-lempeng besar. Indonesia berada di pertemuan tiga lempeng: Indo-Australia, Eurasia, dan Pasifik.", "en": "The Earth's crust is broken into huge plates. Indonesia sits where three plates meet: the Indo-Australian, Eurasian and Pacific Plates." },
-        "fakta": ["G-01", "G-02"]
+        "isi": { "id": "Kerak bumi terpecah menjadi lempeng-lempeng besar. Lempeng bergerak sangat lambat, hanya beberapa sentimeter per tahun. Indonesia berada di pertemuan tiga lempeng besar dan termasuk Cincin Api Pasifik.", "en": "The Earth's crust is broken into huge plates. Plates move very slowly, only a few centimetres per year. Indonesia sits where three large plates meet and is part of the Pacific Ring of Fire." },
+        "fakta": ["G-01", "G-02", "G-03"]
       },
       {
         "judul": { "id": "Dari mana gempa berasal", "en": "Where an earthquake starts" },
-        "isi": { "id": "Gempa terjadi saat batuan di batas lempeng tiba-tiba bergeser. Titik asalnya di dalam bumi disebut hiposenter, dan titik di permukaan tepat di atasnya disebut episenter.", "en": "An earthquake happens when rocks at a plate boundary suddenly slip. The starting point inside the Earth is the hypocentre, and the point on the surface directly above it is the epicentre." },
+        "isi": { "id": "Gempa terjadi saat batuan di batas lempeng yang saling tertahan tiba-tiba bergeser atau patah. Energinya merambat sebagai gelombang seismik. Hiposenter ada di dalam bumi, episenter di permukaan tepat di atasnya.", "en": "An earthquake happens when rocks at a plate boundary that were stuck suddenly slip or break. The energy travels as seismic waves. The hypocentre is inside the Earth, and the epicentre is on the surface directly above it." },
         "fakta": ["G-04", "G-05"]
       },
       {
-        "judul": { "id": "Bangunan yang kuat", "en": "Strong buildings" },
-        "isi": { "id": "Bangunan lebih tahan gempa jika dasarnya lebar, ada penguat segitiga, dan bagian berat diletakkan di bawah. Segitiga tidak mudah berubah bentuk saat diguncang.", "en": "Buildings resist earthquakes better with a wide base, triangle braces and heavy parts kept low. A triangle does not change shape easily when it is shaken." },
+        "judul": { "id": "Bangunan tahan gempa", "en": "Quake-safe buildings" },
+        "isi": { "id": "Bangunan lebih tahan gempa jika dasarnya lebar, ada penguat silang berbentuk segitiga, dan bagian berat diletakkan di bawah. Segitiga adalah bentuk yang kuat karena tidak mudah berubah bentuk.", "en": "Buildings resist earthquakes better with a wide base, triangle cross-braces and heavy parts kept low. A triangle is a strong shape because it does not change shape easily." },
         "fakta": ["G-14", "G-15"]
       },
       {
         "judul": { "id": "Merunduk, Berlindung, Berpegangan", "en": "Drop, Cover, Hold On" },
-        "isi": { "id": "Saat gempa di dalam ruangan, merunduk, berlindung di bawah meja yang kuat, dan berpegangan. Jangan berlari keluar selama guncangan masih terjadi.", "en": "During an earthquake indoors, drop, take cover under a sturdy table and hold on. Do not run outside while the shaking is still happening." },
-        "fakta": ["G-10", "G-11"]
+        "isi": { "id": "Saat gempa di dalam ruangan, merunduk, berlindung di bawah meja yang kuat, dan berpegangan. Jangan berlari keluar selama guncangan masih terjadi. Di luar ruangan, menuju tempat terbuka.", "en": "During an earthquake indoors, drop, take cover under a sturdy table and hold on. Do not run outside while the shaking is still happening. Outdoors, go to an open area." },
+        "fakta": ["G-10", "G-11", "G-12"]
+      },
+      {
+        "judul": { "id": "Siaga setiap hari", "en": "Ready every day" },
+        "isi": { "id": "Gempa berikutnya belum bisa diprediksi secara tepat. Karena itu kita siaga: tas siaga bencana dan latihan evakuasi rutin membantu kita bertindak cepat dan tenang.", "en": "The next earthquake cannot be predicted exactly yet. That is why we get ready: an emergency go-bag and regular evacuation drills help us act quickly and calmly." },
+        "fakta": ["G-09", "G-16", "G-17"]
       }
     ],
     "simulasi": {
       "jenis": "shake",
       "judul": { "id": "Meja getar", "en": "Shake table" },
-      "pengantar": { "id": "Bangun menaramu, lalu mulai gempanya. Meja akan berguncang 20 kali.", "en": "Build your tower, then start the earthquake. The table shakes 20 times." }
+      "pengantar": { "id": "Model ini meniru guncangan gempa, bukan gempa sebenarnya. Atur dasar, penguat, dan bagian berat menaramu, lalu mulai guncangannya.", "en": "This model imitates earthquake shaking, not a real earthquake. Set your tower's base, braces and heavy part, then start the shaking." }
     },
     "keselamatan": [
-      { "id": "Untuk percobaan meja getar sungguhan, agar-agar dimasak dan didinginkan oleh orang dewasa. Bahan percobaan tidak untuk dimakan.", "en": "For a real shake table, an adult cooks and cools the jelly. Experiment materials are not for eating." }
+      { "id": "Agar-agar dimasak dan didinginkan oleh orang dewasa. Bahan percobaan tidak untuk dimakan.", "en": "The jelly is cooked and cooled by an adult. Experiment materials are not for eating." },
+      { "id": "Pastikan tidak ada benda yang bisa jatuh di dekat meja latihan. Berjalan, jangan berlari.", "en": "Make sure nothing can fall near the drill table. Walk, do not run." }
     ],
     "coba": [
-      { "id": "Pilih dasar sempit, tanpa penguat, dan bagian berat di atas. Apakah menaranya bertahan?", "en": "Choose a narrow base, no braces and the heavy part at the top. Does the tower survive?" },
-      { "id": "Ubah satu hal saja: tambahkan penguat segitiga. Apa yang terjadi?", "en": "Change only one thing: add triangle braces. What happens?" },
-      { "id": "Cari kekuatan guncangan terbesar yang masih bisa ditahan menara terbaikmu.", "en": "Find the strongest shaking your best tower can still survive." }
+      { "id": "Pilih dasar sempit, tanpa penguat, dan bagian berat di atas. Mulai guncangannya. Apakah menaranya bertahan?", "en": "Choose a narrow base, no braces and the heavy part at the top. Start the shaking. Does the tower survive?" },
+      { "id": "Ubah satu hal saja: ganti dasar menjadi lebar. Apa yang berubah?", "en": "Change only one thing: make the base wide. What changes?" },
+      { "id": "Tambahkan penguat segitiga dan letakkan bagian berat di bawah. Cari kekuatan guncangan terbesar yang masih bisa ditahan menaramu.", "en": "Add triangle braces and keep the heavy part at the bottom. Find the strongest shaking your tower can still survive." }
     ]
   },
   "kuis": [
     {
-      "tanya": { "id": "Indonesia berada di pertemuan berapa lempeng besar?", "en": "Indonesia sits where how many large plates meet?" },
-      "pilihan": [ { "id": "Tiga", "en": "Three" }, { "id": "Satu", "en": "One" }, { "id": "Dua", "en": "Two" }, { "id": "Lima", "en": "Five" } ],
-      "benar": 0,
-      "bahas": { "id": "Tiga lempeng: Indo-Australia, Eurasia, dan Pasifik.", "en": "Three plates: the Indo-Australian, Eurasian and Pacific Plates." },
-      "fakta": ["G-02"]
+      "tanya": { "id": "Kerak bumi terpecah menjadi potongan-potongan besar yang disebut ...", "en": "The Earth's crust is broken into huge pieces called ..." },
+      "pilihan": [
+        { "id": "Arus laut", "en": "Ocean currents" },
+        { "id": "Lempeng tektonik", "en": "Tectonic plates" },
+        { "id": "Lapisan udara", "en": "Air layers" },
+        { "id": "Awan hujan", "en": "Rain clouds" }
+      ],
+      "benar": 1,
+      "bahas": { "id": "Kerak bumi terpecah menjadi lempeng-lempeng besar. Lempeng bergerak sangat lambat, hanya beberapa sentimeter per tahun.", "en": "The Earth's crust is broken into huge plates. Plates move very slowly, only a few centimetres per year." },
+      "fakta": ["G-01"]
     },
     {
-      "tanya": { "id": "Titik di permukaan bumi tepat di atas tempat gempa berasal disebut ...", "en": "The point on the surface directly above where an earthquake starts is the ..." },
-      "pilihan": [ { "id": "Hiposenter", "en": "Hypocentre" }, { "id": "Episenter", "en": "Epicentre" }, { "id": "Seismograf", "en": "Seismograph" }, { "id": "Magnitudo", "en": "Magnitude" } ],
-      "benar": 1,
-      "bahas": { "id": "Episenter ada di permukaan. Hiposenter ada di dalam bumi.", "en": "The epicentre is on the surface. The hypocentre is inside the Earth." },
+      "tanya": { "id": "Indonesia berada di pertemuan tiga lempeng besar. Sebutkan ketiganya!", "en": "Indonesia sits where three large plates meet. Name all three!" },
+      "pilihan": [
+        { "id": "Afrika, Amerika, dan Antartika", "en": "Africa, America and Antarctica" },
+        { "id": "Bulan, Bumi, dan Mars", "en": "The Moon, Earth and Mars" },
+        { "id": "Indo-Australia, Eurasia, dan Pasifik", "en": "Indo-Australian, Eurasian and Pacific" },
+        { "id": "Jawa, Sumatra, dan Sulawesi", "en": "Java, Sumatra and Sulawesi" }
+      ],
+      "benar": 2,
+      "bahas": { "id": "Indonesia berada di pertemuan Lempeng Indo-Australia, Lempeng Eurasia, dan Lempeng Pasifik. Indonesia juga termasuk Cincin Api Pasifik.", "en": "Indonesia sits where the Indo-Australian Plate, the Eurasian Plate and the Pacific Plate meet. Indonesia is also part of the Pacific Ring of Fire." },
+      "fakta": ["G-02", "G-03"]
+    },
+    {
+      "tanya": { "id": "Gempa bumi terjadi ketika ...", "en": "An earthquake happens when ..." },
+      "pilihan": [
+        { "id": "Hujan turun sangat deras", "en": "Rain falls very hard" },
+        { "id": "Angin bertiup kencang di pegunungan", "en": "Wind blows hard in the mountains" },
+        { "id": "Matahari bersinar terlalu terang", "en": "The Sun shines too brightly" },
+        { "id": "Batuan di batas lempeng yang saling tertahan tiba-tiba bergeser atau patah", "en": "Rocks at a plate boundary that were stuck suddenly slip or break" }
+      ],
+      "benar": 3,
+      "bahas": { "id": "Batuan yang tertahan tiba-tiba bergeser atau patah. Energinya merambat sebagai gelombang seismik.", "en": "Rocks that were stuck suddenly slip or break. The energy travels as seismic waves." },
+      "fakta": ["G-04"]
+    },
+    {
+      "tanya": { "id": "Titik di dalam bumi tempat gempa berasal disebut ...", "en": "The point inside the Earth where an earthquake starts is called the ..." },
+      "pilihan": [
+        { "id": "Hiposenter", "en": "Hypocentre" },
+        { "id": "Episenter", "en": "Epicentre" },
+        { "id": "Magnitudo", "en": "Magnitude" },
+        { "id": "Cincin Api", "en": "Ring of Fire" }
+      ],
+      "benar": 0,
+      "bahas": { "id": "Hiposenter adalah titik di dalam bumi tempat gempa berasal. Episenter adalah titik di permukaan bumi tepat di atasnya.", "en": "The hypocentre is the point inside the Earth where an earthquake starts. The epicentre is the point on the surface directly above it." },
       "fakta": ["G-05"]
     },
     {
-      "tanya": { "id": "Alat untuk mencatat getaran gempa disebut ...", "en": "The instrument that records earthquake shaking is a ..." },
-      "pilihan": [ { "id": "Termometer", "en": "Thermometer" }, { "id": "Barometer", "en": "Barometer" }, { "id": "Seismograf", "en": "Seismograph" }, { "id": "Kompas", "en": "Compass" } ],
+      "tanya": { "id": "Magnitudo gempa naik 1 angka. Energi yang dilepaskan menjadi ...", "en": "The magnitude goes up by 1. The energy released becomes ..." },
+      "pilihan": [
+        { "id": "2 kali lebih besar", "en": "2 times bigger" },
+        { "id": "Sekitar 32 kali lebih besar", "en": "About 32 times bigger" },
+        { "id": "100 kali lebih besar", "en": "100 times bigger" },
+        { "id": "Tidak berubah", "en": "Unchanged" }
+      ],
+      "benar": 1,
+      "bahas": { "id": "Setiap naik 1 angka magnitudo, energi yang dilepaskan sekitar 32 kali lebih besar.", "en": "Each step up of 1 in magnitude releases about 32 times more energy." },
+      "fakta": ["G-07"]
+    },
+    {
+      "tanya": { "id": "Bisakah ilmuwan memprediksi dengan tepat waktu, tempat, dan kekuatan gempa berikutnya?", "en": "Can scientists predict exactly when, where or how strong the next earthquake will be?" },
+      "pilihan": [
+        { "id": "Bisa, sampai ke menitnya", "en": "Yes, down to the minute" },
+        { "id": "Bisa, setahun sebelumnya", "en": "Yes, a year ahead" },
+        { "id": "Belum bisa sampai sekarang", "en": "Not yet" },
+        { "id": "Bisa, dari bentuk awan", "en": "Yes, from the shape of clouds" }
+      ],
       "benar": 2,
-      "bahas": { "id": "Seismograf mencatat getaran. Hasil catatannya disebut seismogram.", "en": "A seismograph records shaking. Its record is called a seismogram." },
-      "fakta": ["G-06"]
+      "bahas": { "id": "Gempa berikutnya belum bisa diprediksi secara tepat. Karena itu kita perlu selalu siaga, dan BMKG memantau gempa di Indonesia.", "en": "The next earthquake cannot be predicted exactly yet. That is why we always need to be ready, and BMKG monitors earthquakes in Indonesia." },
+      "fakta": ["G-09", "G-08"]
     },
     {
       "tanya": { "id": "Kamu di dalam kelas dan terjadi gempa. Apa yang harus kamu lakukan?", "en": "You are in class when an earthquake starts. What should you do?" },
-      "pilihan": [ { "id": "Berlari keluar secepatnya", "en": "Run outside as fast as you can" }, { "id": "Berdiri di dekat jendela", "en": "Stand next to the window" }, { "id": "Bersembunyi di dalam lemari", "en": "Hide inside a cupboard" }, { "id": "Merunduk, berlindung di bawah meja, dan berpegangan", "en": "Drop, take cover under a table and hold on" } ],
+      "pilihan": [
+        { "id": "Berlari keluar gedung secepatnya", "en": "Run out of the building as fast as you can" },
+        { "id": "Berdiri di dekat jendela kaca", "en": "Stand next to the glass window" },
+        { "id": "Bersembunyi di dalam lemari", "en": "Hide inside a cupboard" },
+        { "id": "Merunduk, berlindung di bawah meja yang kuat, dan berpegangan", "en": "Drop, take cover under a sturdy table and hold on" }
+      ],
       "benar": 3,
-      "bahas": { "id": "Merunduk, Berlindung, Berpegangan. Jauhi kaca dan lemari, dan jangan berlari keluar saat masih berguncang.", "en": "Drop, Cover and Hold On. Stay away from glass and cupboards, and do not run outside while it is still shaking." },
+      "bahas": { "id": "Merunduk, Berlindung, Berpegangan. Jauhi kaca, lemari, dan benda yang bisa jatuh, dan jangan berlari keluar saat masih berguncang.", "en": "Drop, Cover and Hold On. Stay away from glass, cupboards and things that can fall, and do not run outside while it is still shaking." },
       "fakta": ["G-10", "G-11"]
     },
     {
-      "tanya": { "id": "Guncangan sudah berhenti. Apa yang dilakukan selanjutnya?", "en": "The shaking has stopped. What do you do next?" },
-      "pilihan": [ { "id": "Keluar dengan tenang lewat jalur evakuasi ke titik kumpul", "en": "Leave calmly along the evacuation route to the assembly point" }, { "id": "Kembali bermain di dalam kelas", "en": "Go back to playing in the classroom" }, { "id": "Berlari mendorong teman", "en": "Run and push your friends" }, { "id": "Menunggu di bawah papan reklame", "en": "Wait under a billboard" } ],
-      "benar": 0,
-      "bahas": { "id": "Keluar dengan tenang ke titik kumpul dan waspadai gempa susulan.", "en": "Leave calmly for the assembly point and watch out for aftershocks." },
-      "fakta": ["G-13"]
-    },
-    {
       "tanya": { "id": "Kamu di luar ruangan saat gempa. Ke mana sebaiknya kamu pergi?", "en": "You are outdoors during an earthquake. Where should you go?" },
-      "pilihan": [ { "id": "Ke bawah pohon besar", "en": "Under a big tree" }, { "id": "Ke tempat terbuka, jauh dari gedung dan tiang listrik", "en": "To an open area, away from buildings and power poles" }, { "id": "Ke samping papan reklame", "en": "Next to a billboard" }, { "id": "Masuk ke gedung tinggi", "en": "Into a tall building" } ],
+      "pilihan": [
+        { "id": "Ke bawah pohon besar", "en": "Under a big tree" },
+        { "id": "Ke tempat terbuka, jauh dari gedung dan tiang listrik", "en": "To an open area, away from buildings and power poles" },
+        { "id": "Ke samping papan reklame", "en": "Next to a billboard" },
+        { "id": "Masuk ke gedung terdekat", "en": "Into the nearest building" }
+      ],
       "benar": 1,
       "bahas": { "id": "Menjauh dari gedung, tiang listrik, papan reklame, dan pohon besar, lalu menuju tempat terbuka.", "en": "Move away from buildings, power poles, billboards and big trees, and go to an open area." },
       "fakta": ["G-12"]
     },
     {
-      "tanya": { "id": "Menara mana yang paling tahan guncangan?", "en": "Which tower survives shaking best?" },
-      "pilihan": [ { "id": "Dasar sempit, bagian berat di atas", "en": "Narrow base, heavy part at the top" }, { "id": "Dasar sempit, tanpa penguat", "en": "Narrow base, no braces" }, { "id": "Dasar lebar, penguat segitiga, bagian berat di bawah", "en": "Wide base, triangle braces, heavy part at the bottom" }, { "id": "Tinggi dan kurus tanpa penguat", "en": "Tall and thin with no braces" } ],
+      "tanya": { "id": "Mengapa segitiga dipakai sebagai penguat bangunan tahan gempa?", "en": "Why are triangles used to brace earthquake-resistant buildings?" },
+      "pilihan": [
+        { "id": "Karena bentuknya paling indah", "en": "Because they look the nicest" },
+        { "id": "Karena paling mudah dibuat", "en": "Because they are the easiest to build" },
+        { "id": "Karena tidak mudah berubah bentuk saat ditekan atau diguncang", "en": "Because they do not change shape easily when pushed or shaken" },
+        { "id": "Karena membuat bangunan lebih tinggi", "en": "Because they make buildings taller" }
+      ],
       "benar": 2,
-      "bahas": { "id": "Dasar lebar, penguat segitiga, dan bagian berat di bawah membuat bangunan lebih tahan gempa.", "en": "A wide base, triangle braces and heavy parts kept low make a building more earthquake resistant." },
-      "fakta": ["G-14"]
-    },
-    {
-      "tanya": { "id": "Kenapa segitiga dipakai sebagai penguat bangunan?", "en": "Why are triangles used to brace buildings?" },
-      "pilihan": [ { "id": "Karena paling murah", "en": "Because they are the cheapest" }, { "id": "Karena paling indah", "en": "Because they look the nicest" }, { "id": "Karena paling ringan", "en": "Because they are the lightest" }, { "id": "Karena tidak mudah berubah bentuk saat ditekan atau diguncang", "en": "Because they do not change shape easily when pushed or shaken" } ],
-      "benar": 3,
-      "bahas": { "id": "Segitiga adalah bentuk yang kuat karena tidak mudah berubah bentuk.", "en": "A triangle is a strong shape because it does not change shape easily." },
-      "fakta": ["G-15"]
-    },
-    {
-      "tanya": { "id": "Apakah ilmuwan bisa memprediksi dengan tepat kapan gempa berikutnya terjadi?", "en": "Can scientists predict exactly when the next earthquake will happen?" },
-      "pilihan": [ { "id": "Belum bisa", "en": "Not yet" }, { "id": "Bisa, sampai ke menitnya", "en": "Yes, down to the minute" }, { "id": "Bisa, setahun sebelumnya", "en": "Yes, a year ahead" }, { "id": "Bisa, dengan melihat awan", "en": "Yes, by looking at clouds" } ],
-      "benar": 0,
-      "bahas": { "id": "Waktu, tempat, dan kekuatan gempa belum bisa diprediksi secara tepat. Karena itu kita perlu selalu siaga.", "en": "The time, place and strength of an earthquake cannot be predicted exactly yet. That is why we always need to be ready." },
-      "fakta": ["G-09"]
+      "bahas": { "id": "Segitiga adalah bentuk yang kuat. Bangunan juga lebih tahan gempa jika dasarnya lebar dan bagian berat diletakkan di bawah.", "en": "A triangle is a strong shape. Buildings also resist earthquakes better with a wide base and heavy parts kept low." },
+      "fakta": ["G-15", "G-14"]
     },
     {
       "tanya": { "id": "Mana yang termasuk isi tas siaga bencana?", "en": "Which of these belongs in an emergency go-bag?" },
-      "pilihan": [ { "id": "Mainan dan komik", "en": "Toys and comics" }, { "id": "Air minum, senter, peluit, dan kotak P3K", "en": "Drinking water, a torch, a whistle and a first-aid kit" }, { "id": "Bantal besar", "en": "A big pillow" }, { "id": "Payung dan sepatu pesta", "en": "An umbrella and party shoes" } ],
-      "benar": 1,
-      "bahas": { "id": "Tas siaga berisi air minum, makanan tahan lama, senter, P3K, peluit, salinan dokumen penting, dan obat pribadi.", "en": "A go-bag holds drinking water, long-lasting food, a torch, a first-aid kit, a whistle, copies of important documents and personal medicines." },
+      "pilihan": [
+        { "id": "Air minum, senter, kotak P3K, dan peluit", "en": "Drinking water, a torch, a first-aid kit and a whistle" },
+        { "id": "Mainan dan permen", "en": "Toys and sweets" },
+        { "id": "Komik dan bola", "en": "Comics and a ball" },
+        { "id": "Banyak boneka", "en": "Many soft toys" }
+      ],
+      "benar": 0,
+      "bahas": { "id": "Tas siaga bencana berisi air minum, makanan tahan lama, senter, kotak P3K, peluit, salinan dokumen penting, dan obat-obatan pribadi.", "en": "An emergency go-bag holds drinking water, long-lasting food, a torch, a first-aid kit, a whistle, copies of important documents and personal medicines." },
       "fakta": ["G-16"]
     }
   ],
-  "sumber": ["G-01", "G-02", "G-04", "G-05", "G-06", "G-09", "G-10", "G-11", "G-12", "G-13", "G-14", "G-15", "G-16"]
+  "sumber": ["G-01", "G-02", "G-03", "G-04", "G-05", "G-07", "G-08", "G-09", "G-10", "G-11", "G-12", "G-14", "G-15", "G-16", "G-17"]
 }
