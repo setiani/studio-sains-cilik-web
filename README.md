@@ -44,12 +44,4 @@ Lalu buka `http://localhost:8000`.
 node tools/validasi.mjs --sumber ../01-sumber
 ```
 
-## Pilihan hosting
-
-Pilih salah satu. Semuanya bisa otomatis diperbarui setiap ada push ke GitHub.
-
-1. **EdgeOne Pages (Tencent Cloud)**: punya paket gratis dan bisa deploy langsung dari repo GitHub. Cocok untuk hackathon Tencent.
-2. **GitHub Pages**: Settings → Pages → Deploy from branch → `main` / root. Untuk akun gratis, repo harus publik. Repo ini memang hanya berisi konten publik.
-3. **Shared hosting (cPanel)**: unggah seluruh isi folder ke `public_html/`, atau otomatiskan dengan `docs/deploy-ftp.yml`.
-
 Jangan pernah menaruh data pribadi siswa, buku aturan, atau log di repo ini.
