@@ -1,131 +1,127 @@
 {
   "skema": 1,
   "id": "gunung-api-pantai",
-  "id_run": "20261025-1137-gunung-pantai-promo",
-  "versi_draf": 2,
-  "kelas": "6",
+  "id_run": "20261025-1554-gunung-api-pantai",
+  "versi_draf": 3,
+  "kelas": "4-6",
   "judul": { "id": "Gunung Api dan Pantai", "en": "Volcano and Coast" },
-  "ringkas": { "id": "Kenapa gunung api meletus, dan bagaimana kita siaga di pantai", "en": "Why volcanoes erupt, and how we stay ready on the coast" },
+  "ringkas": { "id": "Kenali gunung api, tanda alam tsunami, dan cara selamat di pantai.", "en": "Learn about volcanoes, tsunami warning signs and staying safe at the coast." },
   "pelajaran": {
-    "judul": { "id": "Gunung api, pantai, dan cara kita siaga", "en": "Volcanoes, the coast, and how we get ready" },
+    "judul": { "id": "Kenali gunung api dan pantai, lalu jadilah siaga", "en": "Know volcanoes and the coast, then be ready" },
     "ide": [
       {
-        "judul": { "id": "Magma, lava, dan awan panas", "en": "Magma, lava and pyroclastic flows" },
-        "isi": { "id": "Magma adalah batuan cair yang sangat panas di dalam bumi. Setelah keluar ke permukaan, magma disebut lava. Letusan dapat mengeluarkan lava, abu vulkanik, gas, batu pijar, dan awan panas. Awan panas bergerak lebih cepat dari 100 km/jam dengan suhu ratusan derajat Celsius.", "en": "Magma is very hot melted rock inside the Earth. Once it comes out at the surface, it is called lava. An eruption can release lava, volcanic ash, gases, glowing rocks and pyroclastic flows. A pyroclastic flow moves faster than 100 km/h at hundreds of degrees Celsius." },
-        "fakta": ["V-01", "V-03", "V-04"]
+        "judul": { "id": "Gunung api di sekitar kita", "en": "Volcanoes around us" },
+        "isi": { "id": "Magma adalah batuan cair yang sangat panas di dalam bumi. Setelah keluar ke permukaan, magma disebut lava. Indonesia memiliki sekitar 127 gunung api aktif, dan tanah di sekitarnya umumnya subur.", "en": "Magma is very hot melted rock inside the Earth. Once it comes out at the surface, it is called lava. Indonesia has about 127 active volcanoes, and the soil around them is usually fertile." },
+        "fakta": ["V-01", "V-02", "V-09"]
       },
       {
-        "judul": { "id": "127 gunung api aktif", "en": "127 active volcanoes" },
-        "isi": { "id": "Indonesia memiliki sekitar 127 gunung api aktif. Tanah di sekitar gunung api umumnya subur, itulah salah satu alasan banyak orang tinggal dan bertani di sana.", "en": "Indonesia has about 127 active volcanoes. Soil around volcanoes is usually fertile, which is one reason many people live and farm there." },
-        "fakta": ["V-02", "V-09"]
+        "judul": { "id": "Yang keluar saat letusan", "en": "What comes out in an eruption" },
+        "isi": { "id": "Letusan dapat mengeluarkan lava, abu vulkanik, gas, batu pijar, dan awan panas. Awan panas bisa meluncur lebih cepat dari 100 km/jam dengan suhu ratusan derajat Celsius. Lahar adalah aliran lumpur yang sering terjadi setelah hujan deras.", "en": "An eruption can release lava, volcanic ash, gases, glowing rocks and pyroclastic flows. A pyroclastic flow can rush down faster than 100 km/h at hundreds of degrees Celsius. A lahar is a mudflow that often happens after heavy rain." },
+        "fakta": ["V-03", "V-04", "V-05"]
       },
       {
-        "judul": { "id": "Lahar dan status gunung api", "en": "Lahars and volcano alert levels" },
-        "isi": { "id": "Lahar adalah aliran lumpur dari campuran material vulkanik dan air, sering terjadi setelah hujan deras, dan mengalir melalui sungai. Status gunung api di Indonesia ditetapkan PVMBG (Badan Geologi) dalam empat tingkat: Level I Normal, Level II Waspada, Level III Siaga, Level IV Awas.", "en": "A lahar is a mudflow of volcanic material mixed with water. It often happens after heavy rain and flows along river valleys. In Indonesia, PVMBG (the Geological Agency) sets four levels: Level I Normal, Level II Advisory, Level III Watch, Level IV Warning." },
-        "fakta": ["V-05", "V-06"]
+        "judul": { "id": "Level siaga gunung api", "en": "Volcano alert levels" },
+        "isi": { "id": "PVMBG (Badan Geologi) menetapkan empat tingkat: Level I Normal, Level II Waspada, Level III Siaga, dan Level IV Awas. Jika status naik, ikuti arahan petugas, jangan masuk zona bahaya, dan siapkan tas siaga. Saat ada abu, pakai masker dan kacamata.", "en": "PVMBG (the Geological Agency) sets four steps: Level I Normal, Level II Advisory (Waspada), Level III Watch (Siaga), and Level IV Warning (Awas). If the level goes up, follow the officials, stay out of the danger zone, and get your go-bag ready. When there is ash, wear a mask and glasses." },
+        "fakta": ["V-06", "V-07", "V-08"]
       },
       {
-        "judul": { "id": "Model letusan soda kue", "en": "Baking soda eruption model" },
-        "isi": { "id": "Bentuk gunung dari plastisin di sekitar botol plastik kecil di atas nampan. Masukkan soda kue, pewarna, dan sabun, lalu tuangkan cuka. Busa terjadi karena reaksi soda kue dan cuka menghasilkan gas karbon dioksida. Model ini hanya meniru bentuk letusan, bukan cara gunung api sungguhan meletus.", "en": "Build a volcano from plasticine around a small bottle on a tray. Add baking soda, food colouring and dish soap, then pour in vinegar. The foam comes from baking soda and vinegar reacting to make carbon dioxide gas. This model only imitates the shape of an eruption, not a real eruption." },
-        "fakta": ["V-01", "V-03"]
+        "judul": { "id": "Tsunami: gelombang dari laut", "en": "Tsunami: waves from the sea" },
+        "isi": { "id": "Tsunami adalah rangkaian gelombang laut besar, paling sering dipicu gempa bawah laut. Di laut dalam, tsunami bergerak sekitar 800 km/jam, lalu melambat dan menjadi jauh lebih tinggi saat mendekati pantai. Tsunami Aceh terjadi pada 26 Desember 2004 dan tsunami Selat Sunda pada 22 Desember 2018.", "en": "A tsunami is a series of huge sea waves, most often caused by an undersea earthquake. In deep ocean, a tsunami travels about 800 km/h, then slows down and grows much taller near the shore. The Aceh tsunami happened on 26 December 2004 and the Sunda Strait tsunami on 22 December 2018." },
+        "fakta": ["V-10", "V-11", "V-15"]
       },
       {
-        "judul": { "id": "Tsunami dan tanda alam", "en": "Tsunamis and warning signs" },
-        "isi": { "id": "Tsunami adalah rangkaian gelombang laut besar. Tanda alamnya: gempa kuat atau lama, air laut surut tiba-tiba, dan suara gemuruh. Segera ke tempat tinggi, jangan menunggu peringatan resmi. Hutan mangrove dan pohon cemara pantai membantu mengurangi kekuatan gelombang.", "en": "A tsunami is a series of huge sea waves. Natural warning signs: a strong or long quake, the sea pulling back, and a roaring sound. Go to high ground at once and do not wait for an official warning. Mangrove forests and coastal pine trees help reduce the force of waves." },
-        "fakta": ["V-10", "V-12", "V-13", "V-16"]
+        "judul": { "id": "Tanda alam dan pelindung pantai", "en": "Warning signs and coastal protectors" },
+        "isi": { "id": "Tanda alam tsunami: gempa kuat atau lama di dekat pantai, air laut surut tiba-tiba, dan suara gemuruh dari arah laut. Jika melihatnya, segera pergi ke tempat tinggi dan ikuti rambu jalur evakuasi. Hutan mangrove dan pohon cemara pantai dapat membantu mengurangi kekuatan gelombang.", "en": "Natural warning signs of a tsunami: a strong or long earthquake near the coast, the sea suddenly pulling back, and a roaring sound from the sea. If you see them, go to high ground at once and follow the evacuation signs. Mangroves and coastal pines can reduce wave force." },
+        "fakta": ["V-12", "V-13", "V-14", "V-16"]
       }
     ],
     "simulasi": {
       "jenis": "tsunami",
-      "judul": { "id": "Tsunami dari laut ke pantai", "en": "Tsunami from sea to shore" },
-      "pengantar": { "id": "Nyalakan atau matikan hutan mangrove dan sirene, lalu jalankan simulasi. Amati apa yang terjadi pada gelombang.", "en": "Turn the mangrove forest and the warning siren on or off, then run the simulation. Watch what happens to the waves." }
+      "judul": { "id": "Simulasi tsunami", "en": "Tsunami simulation" },
+      "pengantar": { "id": "Di simulasi ini, laut dalamnya 5000 meter dan gelombang bergerak sekitar 800 km/jam. Coba nyalakan atau matikan hutan mangrove dan sirene peringatan, lalu lihat gelombang yang mencapai pantai.", "en": "In this simulation, the deep ocean is 5000 metres and the wave moves about 800 km/h. Try turning the mangrove forest and the warning siren on or off, then watch the wave reach the shore." }
     },
     "keselamatan": [
-      { "id": "Dilakukan dengan pendampingan orang dewasa.", "en": "This is done with adult supervision." },
-      { "id": "Pakai kacamata pelindung.", "en": "Wear safety glasses." },
-      { "id": "Cuka tidak boleh terkena mata.", "en": "Vinegar must not get into your eyes." },
-      { "id": "Bahan tidak untuk diminum atau dimakan.", "en": "The materials are not for drinking or eating." },
-      { "id": "Bersihkan tumpahan agar lantai tidak licin.", "en": "Clean up spills so the floor is not slippery." },
-      { "id": "Tidak ada risiko khusus (kegiatan peta jalur evakuasi).", "en": "There are no special risks (evacuation route map activity)." }
+      { "id": "Kegiatan dilakukan dengan pendampingan orang dewasa.", "en": "Do the activity with an adult helping you." },
+      { "id": "Jauhkan wadah air dari colokan dan alat listrik.", "en": "Keep the water container away from power sockets and electrical devices." },
+      { "id": "Lap tumpahan air.", "en": "Wipe up spilled water." }
     ],
     "coba": [
-      { "id": "Nyalakan hutan mangrove, lalu jalankan simulasi. Amati tinggi gelombang saat mendekati pantai.", "en": "Turn the mangrove forest on, then run the simulation. Watch the wave height as it nears the shore." },
-      { "id": "Matikan hutan mangrove dan ulangi. Bandingkan tinggi gelombang di pantai.", "en": "Turn the mangrove forest off and try again. Compare the wave height at the shore." },
-      { "id": "Nyalakan sirene peringatan. Apakah kamu punya waktu pergi ke tempat tinggi sebelum gelombang tiba?", "en": "Turn the warning siren on. Do you have time to get to high ground before the wave arrives?" },
-      { "id": "Matikan sirene dan ulangi. Apa yang berubah?", "en": "Turn the siren off and try again. What changes?" }
+      { "id": "Matikan hutan mangrove, lalu jalankan gelombangnya. Amati kekuatan gelombang yang mencapai pantai.", "en": "Turn the mangrove forest off, then run the wave. Watch the strength of the wave that reaches the shore." },
+      { "id": "Nyalakan hutan mangrove dan jalankan lagi. Apakah gelombangnya melemah?", "en": "Turn the mangrove forest on and run it again. Does the wave get weaker?" },
+      { "id": "Nyalakan sirene peringatan. Di laut dalam, gelombang bergerak sekitar 800 km/jam. Coba hitung berapa lama gelombang sampai ke pantai.", "en": "Turn the warning siren on. In deep ocean, the wave moves about 800 km/h. Try to count how long the wave takes to reach the shore." }
     ]
   },
   "kuis": [
     {
-      "tanya": { "id": "Batuan cair yang sangat panas di dalam bumi disebut apa?", "en": "What is very hot melted rock inside the Earth called?" },
+      "tanya": { "id": "Apa nama batuan cair yang sangat panas di dalam bumi?", "en": "What is the very hot melted rock inside the Earth called?" },
       "pilihan": [ { "id": "Lava", "en": "Lava" }, { "id": "Magma", "en": "Magma" }, { "id": "Lahar", "en": "Lahar" }, { "id": "Abu vulkanik", "en": "Volcanic ash" } ],
       "benar": 1,
-      "bahas": { "id": "Di dalam bumi disebut magma. Setelah keluar ke permukaan, magma disebut lava.", "en": "Inside the Earth it is called magma. Once it comes out at the surface, it is called lava." },
+      "bahas": { "id": "Di dalam bumi, batuan cair panas disebut magma. Setelah keluar ke permukaan, disebut lava.", "en": "Inside the Earth, hot melted rock is called magma. Once it comes out at the surface, it is called lava." },
       "fakta": ["V-01"]
     },
     {
-      "tanya": { "id": "Menurut materi ini, berapa jumlah gunung api aktif di Indonesia?", "en": "According to this material, how many active volcanoes does Indonesia have?" },
-      "pilihan": [ { "id": "Sekitar 127", "en": "About 127" }, { "id": "Sekitar 27", "en": "About 27" }, { "id": "Sekitar 72", "en": "About 72" }, { "id": "Sekitar 12", "en": "About 12" } ],
+      "tanya": { "id": "Indonesia memiliki sekitar berapa gunung api aktif?", "en": "Indonesia has about how many active volcanoes?" },
+      "pilihan": [ { "id": "Sekitar 127", "en": "About 127" }, { "id": "Sekitar 72", "en": "About 72" }, { "id": "Sekitar 712", "en": "About 712" }, { "id": "Sekitar 217", "en": "About 217" } ],
       "benar": 0,
       "bahas": { "id": "Indonesia memiliki sekitar 127 gunung api aktif.", "en": "Indonesia has about 127 active volcanoes." },
       "fakta": ["V-02"]
     },
     {
-      "tanya": { "id": "Apa saja yang dapat keluar saat gunung api meletus?", "en": "What can come out during a volcanic eruption?" },
-      "pilihan": [ { "id": "Hanya asap dan uap air", "en": "Only smoke and water vapour" }, { "id": "Hanya batu besar", "en": "Only big rocks" }, { "id": "Hanya pasir halus", "en": "Only fine sand" }, { "id": "Lava, abu vulkanik, gas, batu pijar, dan awan panas", "en": "Lava, volcanic ash, gases, glowing rocks and pyroclastic flows" } ],
-      "benar": 3,
-      "bahas": { "id": "Letusan dapat mengeluarkan lava, abu vulkanik, gas, batu pijar, dan awan panas.", "en": "An eruption can release lava, volcanic ash, gases, glowing rocks and pyroclastic flows." },
-      "fakta": ["V-03"]
-    },
-    {
-      "tanya": { "id": "Awan panas dapat meluncur menuruni lereng lebih cepat dari berapa?", "en": "How fast can a pyroclastic flow rush down a slope?" },
-      "pilihan": [ { "id": "10 km/jam", "en": "10 km/h" }, { "id": "50 km/jam", "en": "50 km/h" }, { "id": "100 km/jam", "en": "100 km/h" }, { "id": "500 km/jam", "en": "500 km/h" } ],
+      "tanya": { "id": "Aliran apa yang bisa meluncur menuruni lereng lebih cepat dari 100 km/jam?", "en": "Which flow can rush down a slope faster than 100 km/h?" },
+      "pilihan": [ { "id": "Lahar", "en": "A lahar" }, { "id": "Angin pantai", "en": "Coastal wind" }, { "id": "Awan panas", "en": "A pyroclastic flow" }, { "id": "Sungai", "en": "A river" } ],
       "benar": 2,
-      "bahas": { "id": "Awan panas bisa meluncur lebih cepat dari 100 km/jam dengan suhu ratusan derajat Celsius, sehingga sangat berbahaya.", "en": "A pyroclastic flow can rush down faster than 100 km/h at hundreds of degrees Celsius, so it is extremely dangerous." },
+      "bahas": { "id": "Awan panas adalah campuran gas dan material vulkanik yang sangat panas. Ia bisa meluncur lebih cepat dari 100 km/jam.", "en": "A pyroclastic flow is a mix of very hot gas and volcanic material. It can rush down faster than 100 km/h." },
       "fakta": ["V-04"]
     },
     {
-      "tanya": { "id": "Aliran lumpur dari campuran material vulkanik dan air yang sering terjadi setelah hujan deras disebut ...", "en": "A mudflow of volcanic material mixed with water, which often happens after heavy rain, is called ..." },
-      "pilihan": [ { "id": "Lahar", "en": "Lahar" }, { "id": "Lava", "en": "Lava" }, { "id": "Magma", "en": "Magma" }, { "id": "Awan panas", "en": "Pyroclastic flow" } ],
-      "benar": 0,
-      "bahas": { "id": "Lahar mengalir melalui sungai dan sering terjadi setelah hujan deras.", "en": "A lahar flows along river valleys and often happens after heavy rain." },
+      "tanya": { "id": "Apa itu lahar?", "en": "What is a lahar?" },
+      "pilihan": [ { "id": "Batuan cair di dalam bumi", "en": "Hot melted rock inside the Earth" }, { "id": "Gas vulkanik", "en": "Volcanic gas" }, { "id": "Aliran lava ke laut", "en": "Lava flowing to the sea" }, { "id": "Aliran lumpur dari material vulkanik dan air", "en": "A mudflow of volcanic material and water" } ],
+      "benar": 3,
+      "bahas": { "id": "Lahar sering terjadi setelah hujan deras dan mengalir melalui sungai.", "en": "A lahar often happens after heavy rain and flows along river valleys." },
       "fakta": ["V-05"]
     },
     {
-      "tanya": { "id": "Ada berapa tingkat status gunung api di Indonesia?", "en": "How many volcano alert levels are there in Indonesia?" },
-      "pilihan": [ { "id": "Dua tingkat", "en": "Two levels" }, { "id": "Tiga tingkat", "en": "Three levels" }, { "id": "Empat tingkat", "en": "Four levels" }, { "id": "Lima tingkat", "en": "Five levels" } ],
-      "benar": 2,
-      "bahas": { "id": "PVMBG (Badan Geologi) menetapkan empat tingkat: Level I Normal, Level II Waspada, Level III Siaga, Level IV Awas.", "en": "PVMBG (the Geological Agency) sets four levels: Level I Normal, Level II Advisory (Waspada), Level III Watch (Siaga), Level IV Warning (Awas)." },
+      "tanya": { "id": "Siapa yang menetapkan status gunung api di Indonesia?", "en": "Who sets the volcano alert levels in Indonesia?" },
+      "pilihan": [ { "id": "Guru sekolah", "en": "School teachers" }, { "id": "PVMBG (Badan Geologi)", "en": "PVMBG (the Geological Agency)" }, { "id": "Bos toko buku", "en": "A bookshop owner" }, { "id": "Kapten kapal", "en": "A ship captain" } ],
+      "benar": 1,
+      "bahas": { "id": "PVMBG (Badan Geologi) menetapkan empat tingkat: Level I Normal, Level II Waspada, Level III Siaga, Level IV Awas.", "en": "PVMBG (the Geological Agency) sets four steps: Level I Normal, Level II Advisory (Waspada), Level III Watch (Siaga), Level IV Warning (Awas)." },
       "fakta": ["V-06"]
     },
     {
-      "tanya": { "id": "Status gunung api di dekat rumahmu naik. Apa yang kamu lakukan?", "en": "The volcano near your home has a higher alert level. What do you do?" },
-      "pilihan": [ { "id": "Mendaki untuk melihat kawah dari dekat", "en": "Hike up to look into the crater" }, { "id": "Menonton dari dalam zona bahaya", "en": "Watch from inside the danger zone" }, { "id": "Menunggu di lereng bersama teman", "en": "Wait on the slope with friends" }, { "id": "Mengikuti arahan petugas, menjauhi zona bahaya, dan menyiapkan tas siaga bencana", "en": "Follow the officials' instructions, stay out of the danger zone and get your go-bag ready" } ],
-      "benar": 3,
-      "bahas": { "id": "Saat status naik, ikuti arahan petugas, jangan memasuki zona bahaya yang diumumkan, dan siapkan tas siaga bencana.", "en": "When the level goes up, follow the officials' instructions, stay out of the announced danger zone and get your emergency go-bag ready." },
-      "fakta": ["V-07"]
-    },
-    {
-      "tanya": { "id": "Abu vulkanik turun di sekitarmu. Apa yang perlu kamu pakai dan lakukan?", "en": "Volcanic ash is falling around you. What should you wear and do?" },
-      "pilihan": [ { "id": "Masker dan kacamata, lalu tutup tempat penyimpanan air", "en": "A mask and glasses, then cover water containers" }, { "id": "Kacamata hitam saja", "en": "Sunglasses only" }, { "id": "Topi saja tanpa masker", "en": "A hat only, without a mask" }, { "id": "Tidak perlu apa-apa", "en": "Nothing at all" } ],
+      "tanya": { "id": "Saat ada abu vulkanik, apa yang harus kamu lakukan?", "en": "When there is volcanic ash, what should you do?" },
+      "pilihan": [ { "id": "Pakai masker dan kacamata, lalu tutup tempat penyimpanan air", "en": "Wear a mask and glasses, then cover water containers" }, { "id": "Bermain di luar tanpa masker", "en": "Play outside without a mask" }, { "id": "Melihat abu dari jendela tanpa pelindung", "en": "Watch the ash from a window with no protection" }, { "id": "Menyimpan air di tempat terbuka", "en": "Store water in the open" } ],
       "benar": 0,
-      "bahas": { "id": "Abu vulkanik dapat mengganggu pernapasan dan mata, jadi gunakan masker dan kacamata, dan tutup tempat penyimpanan air.", "en": "Volcanic ash can harm breathing and eyes, so wear a mask and glasses, and cover water containers." },
+      "bahas": { "id": "Abu vulkanik dapat mengganggu pernapasan dan mata. Gunakan masker dan kacamata, dan tutup tempat penyimpanan air.", "en": "Volcanic ash can harm breathing and eyes. Wear a mask and glasses, and cover water containers." },
       "fakta": ["V-08"]
     },
     {
-      "tanya": { "id": "Kamu di pantai. Air laut surut tiba-tiba dan ada suara gemuruh dari arah laut. Apa yang kamu lakukan?", "en": "You are at the beach. The sea suddenly pulls back and you hear a roaring sound from the sea. What do you do?" },
-      "pilihan": [ { "id": "Mendekat untuk melihat air yang surut", "en": "Walk closer to look at the retreating sea" }, { "id": "Menunggu peringatan resmi di pantai", "en": "Wait on the beach for an official warning" }, { "id": "Segera pergi ke tempat yang tinggi atau menjauh dari pantai", "en": "Go to high ground at once or move away from the coast" }, { "id": "Duduk di pasir sambil memotret laut", "en": "Sit on the sand and take photos of the sea" } ],
+      "tanya": { "id": "Apa yang paling sering memicu tsunami?", "en": "What most often causes a tsunami?" },
+      "pilihan": [ { "id": "Hujan deras", "en": "Heavy rain" }, { "id": "Angin malam", "en": "Night wind" }, { "id": "Gempa bawah laut yang mengangkat dasar laut", "en": "An undersea earthquake that lifts the seafloor" }, { "id": "Perahu besar", "en": "A big boat" } ],
       "benar": 2,
-      "bahas": { "id": "Itu tanda alam tsunami. Jangan menunggu peringatan resmi dan jangan mendekat untuk melihat air laut yang surut.", "en": "Those are natural warning signs of a tsunami. Do not wait for an official warning and do not go closer to look at the retreating sea." },
+      "bahas": { "id": "Tsunami paling sering dipicu oleh gempa bawah laut yang mengangkat dasar laut secara tiba-tiba.", "en": "Most tsunamis are caused by undersea earthquakes that suddenly lift the seafloor." },
+      "fakta": ["V-10"]
+    },
+    {
+      "tanya": { "id": "Di laut dalam, tsunami bisa bergerak sekitar ...", "en": "In deep ocean, a tsunami can travel about ..." },
+      "pilihan": [ { "id": "8 km/jam", "en": "8 km/h" }, { "id": "80 km/jam", "en": "80 km/h" }, { "id": "800 km/jam", "en": "800 km/h" }, { "id": "8000 km/jam", "en": "8000 km/h" } ],
+      "benar": 2,
+      "bahas": { "id": "Di laut dalam, tsunami bisa bergerak sekitar 800 km/jam, tetapi gelombangnya rendah.", "en": "In deep ocean, a tsunami can travel about 800 km/h, but the wave is low." },
+      "fakta": ["V-11"]
+    },
+    {
+      "tanya": { "id": "Air laut tiba-tiba surut dan terdengar gemuruh dari arah laut. Apa yang kamu lakukan?", "en": "The sea suddenly pulls back and you hear a roar from the sea. What do you do?" },
+      "pilihan": [ { "id": "Mendekat untuk melihat air laut yang surut", "en": "Go closer to look at the retreating sea" }, { "id": "Menunggu peringatan resmi dulu", "en": "Wait for an official warning first" }, { "id": "Bermain di tepi pantai", "en": "Play at the edge of the beach" }, { "id": "Segera pergi ke tempat tinggi atau menjauh dari pantai", "en": "Go to high ground or move away from the coast at once" } ],
+      "benar": 3,
+      "bahas": { "id": "Itu tanda alam tsunami. Segera pergi ke tempat tinggi atau menjauh dari pantai. Jangan menunggu peringatan resmi dan jangan mendekat melihat air laut surut.", "en": "Those are natural warning signs. Go to high ground or move away from the coast at once. Do not wait for an official warning and do not go closer to look at the retreating sea." },
       "fakta": ["V-12", "V-13"]
     },
     {
-      "tanya": { "id": "Di laut dalam, tsunami bisa bergerak sekitar berapa cepat?", "en": "In the deep ocean, about how fast can a tsunami travel?" },
-      "pilihan": [ { "id": "Sekitar 80 km/jam", "en": "About 80 km/h" }, { "id": "Sekitar 800 km/jam", "en": "About 800 km/h" }, { "id": "Sekitar 8 km/jam", "en": "About 8 km/h" }, { "id": "Sekitar 300 km/jam", "en": "About 300 km/h" } ],
-      "benar": 1,
-      "bahas": { "id": "Di laut dalam tsunami bergerak sekitar 800 km/jam tetapi gelombangnya rendah. Di dekat pantai, gelombang melambat dan menjadi jauh lebih tinggi.", "en": "In deep ocean a tsunami travels about 800 km/h but the wave is low. Near the shore it slows down and grows much taller." },
-      "fakta": ["V-11"]
+      "tanya": { "id": "Mana yang membantu mengurangi kekuatan gelombang yang mencapai daratan?", "en": "Which one helps reduce the force of waves that reach land?" },
+      "pilihan": [ { "id": "Hutan mangrove dan pohon cemara pantai", "en": "Mangrove forests and coastal pine trees" }, { "id": "Semak bunga kecil", "en": "Small flower bushes" }, { "id": "Batu hias di rumah", "en": "Decorative rocks at home" }, { "id": "Kursi dan payung pantai", "en": "Beach chairs and umbrellas" } ],
+      "benar": 0,
+      "bahas": { "id": "Hutan mangrove dan pohon cemara pantai dapat membantu mengurangi kekuatan gelombang yang mencapai daratan.", "en": "Mangrove forests and coastal pine trees can help reduce the force of waves that reach land." },
+      "fakta": ["V-16"]
     }
   ],
-  "sumber": ["V-01", "V-02", "V-03", "V-04", "V-05", "V-06", "V-07", "V-08", "V-09", "V-10", "V-11", "V-12", "V-13", "V-16"]
+  "sumber": ["V-01", "V-02", "V-03", "V-04", "V-05", "V-06", "V-07", "V-08", "V-09", "V-10", "V-11", "V-12", "V-13", "V-14", "V-15", "V-16"]
 }
